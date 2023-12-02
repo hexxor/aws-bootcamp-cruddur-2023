@@ -6,3 +6,8 @@ Enable auto-completion, called auto-prompt. Shows possible commands as a preview
 
 `aws sts` stands for "Security token service"
 
+# Gitpod usage:
+
+Print environment variables using `env`
+
+Show the $PATH environment variable: `echo $PATH`

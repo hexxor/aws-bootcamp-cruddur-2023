@@ -11,3 +11,11 @@ Enable auto-completion, called auto-prompt. Shows possible commands as a preview
 Print environment variables using `env`
 
 Show the $PATH environment variable: `echo $PATH`
+
+Use the aws CLI from within Gitpod after installing it: `aws sts get-caller-identity`
+
+This will generate an error if no credentials have been set in the environment variables.
+
+Save environment variables inside gitpod: `gp env AWS_ACCESS_KEY_ID=defaultvalue`
+
+

@@ -18,3 +18,9 @@ Use the aws CLI from within Gitpod after installing it: `aws sts get-caller-iden
 This will generate an error if no credentials have been set in the environment variables.
 
 Save environment variables inside gitpod: `gp env AWS_ACCESS_KEY_ID=defaultvalue`
+
+# Homework
+
+## Create a billing alarm
+
+[Billing alarm set up](assets/Billing_Alarm.jpg)

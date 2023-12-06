@@ -25,3 +25,6 @@ Save environment variables inside gitpod: `gp env AWS_ACCESS_KEY_ID=defaultvalue
 The limit of the alarm was set to 1 USD
 
 ![My own budget set up](assets/budget.png)
+
+## Recreate the logical architecture diagram
+![My own recreated logical architecture diagram](assets/logical-architecture-recreation-diagram.png)

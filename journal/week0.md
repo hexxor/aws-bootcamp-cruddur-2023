@@ -24,4 +24,4 @@ Save environment variables inside gitpod: `gp env AWS_ACCESS_KEY_ID=defaultvalue
 ## Create a billing alarm
 The limit of the alarm was set to 1 USD
 
-[My own budget set up](assets/budget.png)
+![My own budget set up](assets/budget.png)

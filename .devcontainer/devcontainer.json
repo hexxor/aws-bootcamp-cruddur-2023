@@ -17,7 +17,11 @@
 				"ms-azuretools.vscode-docker",
 				"ms-python.python",
 				"dracula-theme.theme-dracula"
-			]
+			],
+			"settings": {
+				"workbench.action.configureLocale": "en",
+				"workbench.colorTheme": "Default Dark+"
+			}
 		}
 	}
 

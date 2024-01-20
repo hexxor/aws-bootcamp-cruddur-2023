@@ -1,4 +1,5 @@
 import './App.css';
+import { Amplify } from 'aws-amplify';
 
 import HomeFeedPage from './pages/HomeFeedPage';
 import UserFeedPage from './pages/UserFeedPage';
@@ -15,7 +16,7 @@ import {
   RouterProvider
 } from "react-router-dom";
 
-import { Amplify } from 'aws-amplify';
+
 
 console.log("pregion", process.env.REACT_APP_AWS_PROJECT_REGION)
 console.log("cregion", process.env.REACT_APP_AWS_COGNITO_REGION)

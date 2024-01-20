@@ -1,4 +1,4 @@
-FROM node:16.18
+FROM node:18.19
 
 ENV PORT=3000
 

@@ -1,11 +1,3 @@
-services:
-  docker-compose:
-    name: Docker Compose Services
-    description: Run all application containers (backend, frontend, db, xray)
-    triggeredBy:
-      - postDevcontainerStart
-    command: docker compose up
-
 tasks:
   postgres-setup:
     name: Install PostgreSQL Client
@@ -26,3 +18,13 @@ tasks:
     command: |
       cd frontend-react-js
       npm i
+
+services:
+  docker-compose:
+    name: Docker Compose Services
+    description: Run all application containers (backend, frontend, db, xray)
+    commands: 
+      start: |
+        docker compose up
+    triggeredBy:
+      - postDevcontainerStart
